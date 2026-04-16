@@ -29,7 +29,7 @@ jobs:
         exit 0
         fi
         
-        IMAGE_NAME="${{ vars.IMAGE_DIST }}.traps.paloaltonetworks.com/cli-docker/${TOKEN}/method:amd64-latest"
+        IMAGE_NAME="${{ vars.IMAGE_DIST }}.traps.paloaltonetworks.com/cli-docker/${TOKEN}/method:amd64-0.28.0-dev"
 
         docker pull ${IMAGE_NAME}
         
